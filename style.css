@@ -1,0 +1,175 @@
+.navbar{
+    width: 40%;
+    height: 4%;
+    margin-left: 35%;
+    display: flex;
+    gap: 10%;
+    padding: 0;
+    position: fixed;
+    background-color: white;
+    z-index: 22;
+}
+.navbar> a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.531);
+    transition: color 0.5s;
+}
+.navbar> a:hover{
+    color: black;
+    transition: color;
+}
+.home{
+    position: absolute;
+    top: 35%;
+    font-size: x-large;
+    background-color: white;
+    color: #6D7379;
+    height: 50%;
+}
+.home>.download{
+    background-color: rgba(23, 23, 23, 0.535);
+    color: white;
+}
+.home>.download:hover{
+    background-color: black;
+    color: white;
+}
+.home>.icons{
+    margin-top: 10px;
+}
+.home>.icons>a{
+    margin-top: 50px;
+    padding: 3px;
+    border: 2px orangered solid;
+    border-radius: 50%;
+    color: orangered;
+    transition: color 2s;
+    font-size: medium;
+}
+.home>.icons>a:hover{
+    background-color: orangered;
+    color: white;
+    transition: color;
+}
+.stats{
+    display: flex;
+    gap: 40px;
+    position: absolute;
+    top: 85%;
+    left: 40%;
+    font-size: x-large;
+    border: 2px black solid;
+    border-radius: 10%;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.591), 
+    -3px -3px 6px rgba(0, 0, 0, 0.591);
+}
+.about{
+    display: flex;
+    gap: 25px;
+    position: absolute;
+    top: 120%;
+    background-color: white;
+}
+.about>.image{
+    margin: 10px;
+}
+.about>.contents{
+    color: #495057;
+    font-size: large;
+}
+.contents>button{
+    background-color: rgba(255, 68, 0, 0.6);
+    color: white;
+}
+.contents>button:hover{
+    background-color: orangered
+}
+.skill{
+    position: absolute;
+    top: 180%;
+    text-align: center;
+    left: 23%;
+}
+.skill{
+    color: #5c6165;;
+}
+.tech{
+    display: flex;
+    gap: 50px;
+    margin-left: 25%;
+}
+.soft{
+    display: flex;
+    gap: 50px;
+    margin-left: 22%;
+}
+.projects{
+    position: absolute;
+    top: 250%;
+    text-align: center;
+    left: 21%;
+    color: #495057;
+}
+.pro{
+    display: flex;
+    gap: 15%;
+    width: 800px;
+}
+.contacts{
+    position: absolute;
+    top: 300%;  
+    text-align: center;
+    left: 28%;
+    font-size: large;
+    color: #5c6165;
+    z-index: 22;
+    background: white;
+}
+.card{
+    display: flex;
+    gap: 250px;
+}
+.card>.left>input{
+    font-size: large;
+    margin: 10px;
+}
+.card>.left>button{
+    font-size: large;
+}
+.card>.left>button{
+    background-color: rgba(255, 68, 0, 0.6);
+    color: white;
+}
+.card>.left>button:hover{
+    background-color: orangered
+}
+.map{
+    position: absolute;
+    top: 350%;  
+    margin-left: 30%;
+}
+.footer{
+    position: absolute;
+    top: 430%;   
+    display: flex;
+    gap: 1000px;
+}
+.footer>.icons{
+    margin-top: 10px;
+}
+.footer>.icons>a{
+    margin-top: 50px;
+    padding: 3px;
+    border: 2px orangered solid;
+    border-radius: 50%;
+    color: orangered;
+    transition: color 2s;
+    font-size: medium;
+}
+.footer>.icons>a:hover{
+    background-color: orangered;
+    color: white;
+    transition: color;
+}
